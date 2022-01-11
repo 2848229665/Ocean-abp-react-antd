@@ -10,7 +10,7 @@ const AppConsts = {
         allAuthorityName: 'precise_all_permission',
         grantedAuthorityName: 'precise_granted_permission'
     },
-    appBaseUrl: "http://127.0.0.1:8000",
-    remoteServiceBaseUrl: "http://127.0.0.1:50538/",
+    appBaseUrl: "http://192.168.31.157:8000",
+    remoteServiceBaseUrl: "http://192.168.31.157:50538/",
 };
 export default AppConsts;

@@ -119,17 +119,17 @@ namespace Precise.Web.Controllers
             }
 
             //Password reset
-            if (loginResult.User.ShouldChangePasswordOnNextLogin)
-            {
-                loginResult.User.SetNewPasswordResetCode();
-                return new AuthenticateResultModel
-                {
-                    ShouldResetPassword = true,
-                    PasswordResetCode = loginResult.User.PasswordResetCode,
-                    UserId = loginResult.User.Id,
-                    ReturnUrl = returnUrl
-                };
-            }
+            //if (loginResult.User.ShouldChangePasswordOnNextLogin)
+            //{
+            //    loginResult.User.SetNewPasswordResetCode();
+            //    return new AuthenticateResultModel
+            //    {
+            //        ShouldResetPassword = true,
+            //        PasswordResetCode = loginResult.User.PasswordResetCode,
+            //        UserId = loginResult.User.Id,
+            //        ReturnUrl = returnUrl
+            //    };
+            //}
 
             //Two factor auth
             await _userManager.InitializeOptionsAsync(loginResult.Tenant?.Id);
