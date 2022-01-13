@@ -39,7 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Web.Core\Ocean.Web.Core.csproj" />
+    <ProjectReference Include="..\Ocean.Web.Core\Ocean.Web.Core.csproj" />
   </ItemGroup>
 
 </Project>

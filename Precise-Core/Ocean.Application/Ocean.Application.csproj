@@ -10,9 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Application.Shared\Ocean.Application.Shared.csproj" />
-    <ProjectReference Include="..\Precise.Core\Ocean.Core.csproj" />
-    <ProjectReference Include="..\Precise.EntityFrameworkCore\Ocean.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Ocean.Application.Shared\Ocean.Application.Shared.csproj" />
+    <ProjectReference Include="..\Ocean.EntityFrameworkCore\Ocean.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
 </Project>
