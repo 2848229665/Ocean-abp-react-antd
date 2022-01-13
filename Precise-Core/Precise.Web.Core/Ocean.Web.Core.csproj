@@ -23,9 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Application\Precise.Application.csproj" />
-    <ProjectReference Include="..\Precise.EntityFrameworkCore\Precise.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\Precise.WeChat\Precise.WeChat.csproj" />
+    <ProjectReference Include="..\Precise.Application\Ocean.Application.csproj" />
+    <ProjectReference Include="..\Precise.EntityFrameworkCore\Ocean.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Precise.WeChat\Ocean.WeChat.csproj" />
   </ItemGroup>
 
 </Project>

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Core\Precise.Core.csproj" />
+    <ProjectReference Include="..\Precise.Core\Ocean.Core.csproj" />
   </ItemGroup>
 
 </Project>

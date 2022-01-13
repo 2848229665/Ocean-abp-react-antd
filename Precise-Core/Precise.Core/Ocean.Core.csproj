@@ -51,8 +51,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Common\Precise.Common.csproj" />
-    <ProjectReference Include="..\Precise.Core.Shared\Precise.Core.Shared.csproj" />
+    <ProjectReference Include="..\Precise.Common\Ocean.Common.csproj" />
+    <ProjectReference Include="..\Precise.Core.Shared\Ocean.Core.Shared.csproj" />
   </ItemGroup>
 
 </Project>

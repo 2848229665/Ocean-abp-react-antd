@@ -35,11 +35,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Web.Core\Precise.Web.Core.csproj" />
+    <Folder Include="wwwroot\Plugins\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Plugins\" />
+    <ProjectReference Include="..\Precise.Web.Core\Ocean.Web.Core.csproj" />
   </ItemGroup>
 
 </Project>

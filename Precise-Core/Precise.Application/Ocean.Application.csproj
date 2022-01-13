@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Precise.Application.Shared\Precise.Application.Shared.csproj" />
-    <ProjectReference Include="..\Precise.Core\Precise.Core.csproj" />
-    <ProjectReference Include="..\Precise.EntityFrameworkCore\Precise.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Precise.Application.Shared\Ocean.Application.Shared.csproj" />
+    <ProjectReference Include="..\Precise.Core\Ocean.Core.csproj" />
+    <ProjectReference Include="..\Precise.EntityFrameworkCore\Ocean.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
 </Project>
