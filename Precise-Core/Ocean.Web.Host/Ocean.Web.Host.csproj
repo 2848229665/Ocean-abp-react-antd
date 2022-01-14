@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
     <RootNamespace>Ocean.Web</RootNamespace>
     <UserSecretsId>0dac4987-21ab-4b60-b3ae-fe29f07f170f</UserSecretsId>
   </PropertyGroup>

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <RootNamespace>Ocean</RootNamespace>
+    <ApplicationIcon />
+    <OutputType>WinExe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.RabbitMQ" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.BackgroundWorkers" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.Caching" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.Core" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Oracle" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.Swashbuckle" Version="4.4.4" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+  <exist-check-template>
+    <table name="DemoCategorgInfo">
+      <where>
+        {ID}=#VALUE
+      </where>
+    </table>
+    <table name="ContentInfo">
+      <where>
+        {ID}=#VALUE
+      </where>
+    </table>
+  </exist-check-template>
+  <sort>
+    
+  </sort>
+  <except>
+    <item>ocean_version.json</item>
+  </except>
+</root>  

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocean.Application", "Ocean.Application\Ocean.Application.csproj", "{15C27EEC-8564-4E46-8381-E7B1E01536C1}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocean.Web.Host", "Ocean.Web.Host\Ocean.Web.Host.csproj", "{5F3CE3A0-4978-4BD3-B41A-F614BB6BB900}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocean.WeChat", "Ocean.WeChat\Ocean.WeChat.csproj", "{83CCD77D-6FAB-47DA-9026-E13F3E996E65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocean.Domain", "Ocean.Domain\Ocean.Domain.csproj", "{D662F32A-834C-4DED-8557-8203040E7139}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocean.Domain.Shared", "Ocean.Domain.Shared\Ocean.Domain.Shared.csproj", "{C5233CD7-BF65-42BC-B0E8-5CC6D8A83140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocean.Abp", "Ocean.Abp\Ocean.Abp.csproj", "{766F569F-FDC7-4AFC-A7BC-09D81D4C3FAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{83CCD77D-6FAB-47DA-9026-E13F3E996E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83CCD77D-6FAB-47DA-9026-E13F3E996E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83CCD77D-6FAB-47DA-9026-E13F3E996E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D662F32A-834C-4DED-8557-8203040E7139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D662F32A-834C-4DED-8557-8203040E7139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D662F32A-834C-4DED-8557-8203040E7139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D662F32A-834C-4DED-8557-8203040E7139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5233CD7-BF65-42BC-B0E8-5CC6D8A83140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5233CD7-BF65-42BC-B0E8-5CC6D8A83140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5233CD7-BF65-42BC-B0E8-5CC6D8A83140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5233CD7-BF65-42BC-B0E8-5CC6D8A83140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766F569F-FDC7-4AFC-A7BC-09D81D4C3FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766F569F-FDC7-4AFC-A7BC-09D81D4C3FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766F569F-FDC7-4AFC-A7BC-09D81D4C3FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766F569F-FDC7-4AFC-A7BC-09D81D4C3FAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
